@@ -1,0 +1,264 @@
+﻿@page "/calculator"
+@inject IJSRuntime JSRuntime
+
+
+<h3>Calculator</h3>
+
+<div style="margin-top: 20px;">
+	<div class="input-group mb-3">
+		<span class="input-group-text" id="inputGroup-sizing-default">First Number</span>
+		<input placeholder="Input Number" @bind="number1" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+	</div>
+
+	<div class="input-group mb-3">
+		<span class="input-group-text" id="inputGroup-sizing-default">Second Number</span>
+		<input placeholder="Input Number" @bind="number2" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+	</div>
+
+	<div class="col-mb-4">
+		<input readonly @bind="@result" class="form-control" />
+	</div>
+
+	<br />
+
+	<div class="row">
+		<div class="col-md-2">
+			<button @onclick="Add" class="btn btn-outline-success">💕Add(+)</button>
+		</div>
+		<div class="col-md-2">
+			<button @onclick="Subtract" class="btn btn-outline-primary">Subtract(-)</button>
+		</div>
+		<div class="col-md-2">
+			<button @onclick="Multiply" class="btn btn-outline-info">Multiply(x)</button>
+		</div>
+		<div class="col-md-2">
+			<button @onclick="Divide" class="btn btn-outline-danger">Divide(/)</button>
+		</div>
+		<div class="col-md-2">
+			<button @onclick="Remainder" class="btn btn-outline-primary">Remainder(%)</button>
+		</div>
+		<div class="col-md-2">
+			<button @onclick="SquareRoot" class="btn btn-outline-warning">Square Root(√)</button>
+		</div>
+	</div>
+
+	<br />
+
+	<div class="col-md-2">
+		<button @onclick="Clear" type="button" class="btn btn-primary">Clear</button>
+	</div>
+
+	<br />
+
+	@if (errorMessage != null)
+	{
+		<div class="modal fade show" style="display:block;" aria-model="true" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content bg-dark text-white">
+					<div style="padding-left: 17px; padding-right: 17px; padding-top: 17px;">
+						<p class="modal-title" style="font-weight: bold;">0.0.0.0 says</p>
+					</div>
+					<div style="padding-left: 17px; padding-right: 17px; padding-top: 10px;">
+						<p>@errorMessage</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" @onclick="Clear">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	}
+</div>
+
+@code {
+
+	public string number1;
+	public string number2;
+	public double result = 0;
+	public string errorMessage;
+
+	// Custom exception for divide by zero
+	public class DivideByZeroException : Exception
+	{
+		public DivideByZeroException() : base("Cannot divide by zero")
+		{
+		}
+	}
+
+	// Custom exception for negative numbers
+	public class NegativeNumberException : Exception
+	{
+		public NegativeNumberException() : base("Cannot take the square root of a negative number")
+		{
+		}
+
+	}
+
+	// Custom exception for equal numbers
+	public class EqualNumberException : Exception
+	{
+		public EqualNumberException(string message) : base(message)
+		{
+		}
+	}
+
+	//method to check if the numbers are equal for adding numbers
+	private void CheckNumberFormatAndEqualNumber()
+	{
+		try
+		{
+			double.Parse(number1);
+			double.Parse(number2);
+
+			//check if the numbers are equal for adding numbers
+			if (number1 == number2)
+			{
+				throw new EqualNumberException("error both numbers cannot be equal");
+			}
+		}
+		catch (FormatException)
+		{
+			errorMessage = "Invalid number format";
+		}
+		catch (Exception)
+		{
+			errorMessage = "An unexpected error has occured.";
+		}
+	}
+
+	private void Add()
+	{
+		// Checks if the numbers are equal for adding numbers
+		CheckNumberFormatAndEqualNumber();
+		if (errorMessage != null)
+		{
+			return;
+		}
+
+		result = double.Parse(number1) + double.Parse(number2);
+	}
+
+
+	private void Subtract()
+	{
+		// Checks if the numbers are equal for subracting numbers
+		CheckNumberFormatAndEqualNumber();
+		if (errorMessage != null)
+		{
+			return;
+		}
+		result = double.Parse(number1) - double.Parse(number2);
+	}
+
+	private void Multiply()
+	{
+		// Checks if the numbers are equal for multiplying numbers
+		CheckNumberFormatAndEqualNumber();
+		if (errorMessage != null)
+		{
+			return;
+		}
+		result = double.Parse(number1) * double.Parse(number2);
+	}
+
+	private void Divide()
+	{
+		try
+		{
+			if (double.Parse(number2) == 0)
+			{
+				throw new DivideByZeroException();
+			}
+			result = double.Parse(number1) / double.Parse(number2);
+		}
+		catch (FormatException)
+		{
+			errorMessage = "Invalid number format";
+		}
+		catch (DivideByZeroException ex)
+		{
+			errorMessage = ex.Message;
+		}
+		catch (Exception)
+		{
+			errorMessage = "An unexpected error has occured.";
+		}
+	}
+
+	private void SquareRoot()
+	{
+		try
+		{
+			if (double.Parse(number1) < 0 || double.Parse(number2) < 0)
+			{
+				throw new NegativeNumberException();
+			}
+			result = Math.Sqrt(double.Parse(number1));
+		}
+		catch (FormatException)
+		{
+			errorMessage = "Invalid number format";
+		}
+		catch (NegativeNumberException ex)
+		{
+			errorMessage = ex.Message;
+		}
+		catch (Exception)
+		{
+			errorMessage = "An unexpected error has occured.";
+		}
+	}
+
+	private void Remainder()
+	{
+		try
+		{
+			if (double.Parse(number2) == 0)
+			{
+				throw new DivideByZeroException();
+			}
+			result = double.Parse(number1) % double.Parse(number2);
+			NormalizeZero();
+		}
+		catch (FormatException)
+		{
+			errorMessage = "Invalid number format";
+		}
+		catch (DivideByZeroException ex)
+		{
+			errorMessage = ex.Message;
+		}
+		catch (Exception)
+		{
+			errorMessage = "An unexpected error has occured.";
+		}
+	}
+
+	// New method to normalize -0.0 to 0.0
+	private void NormalizeZero()
+	{
+		if (result.CompareTo(-0.0) == 0)
+		{
+			result = 0.0;
+		}
+	}
+
+	private void Clear()
+	{
+		number1 = "";
+		number2 = "";
+		result = 0;
+		errorMessage = null;
+	}
+
+	private void ClearErrorMessage()
+	{
+		errorMessage = null;
+	}
+
+	private async Task ShowModal()
+	{
+		await JSRuntime.InvokeVoidAsync("ShowModal");
+	}
+}
+

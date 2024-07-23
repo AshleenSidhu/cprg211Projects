@@ -1,0 +1,137 @@
+﻿@page "/Todo"
+@inject IJSRuntime JSRuntime
+
+<div>
+    <h1>TO DO LIST</h1>
+
+    <br />
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Enter a new ToDo item to your list" @bind="newtodo" aria-label="Recipient's username" aria-describedby="button-addon2" />
+        <button @onclick="AddTodo" class="btn btn-primary" type="button" id="button-addon2">Add</button>
+    </div>
+
+    <br />
+
+    <h3>ToDo</h3>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="modal fade show" style="display:block;" aria-model="true" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content bg-dark text-white">
+                    <div style="padding-left: 17px; padding-right: 17px; padding-top: 17px;">
+                        <p class="modal-title" style="font-weight: bold;">0.0.0.0 says</p>
+                    </div>
+                    <div style="padding-left: 17px; padding-right: 17px; padding-top: 10px;">
+                        <p>@errorMessage</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" @onclick="Clear">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    <ul>
+        @foreach (var item in todos)
+        {
+            if (!item.IsDone)
+            {
+                <li class="list-unstyled" style="margin-top: 10px;">
+                    <input type="checkbox" @bind="item.IsDone" />
+                    <input @bind="item.Title" disabled="disabled" />
+                    <button @onclick="() => DeleteTodo(item, todos)" class="btn btn-danger">Delete</button>
+                </li>
+            }
+        }
+    </ul>
+
+    <br />
+
+    <h3>Done</h3>
+
+    <ul>
+        @foreach (var item in todos)
+        {
+            if (item.IsDone)
+            {
+                <li class="list-unstyled" style="margin-top: 10px;">
+                    <input @bind="item.Title" disabled="disabled" />
+                    <button @onclick="() => DeleteTodo(item, todos)" class="btn btn-danger">Delete</button>
+                </li>
+            }
+        }
+    </ul>
+</div>
+
+
+@code {
+    private List<ToDoitems> todos = new List<ToDoitems>();
+    private string newtodo;
+    public string errorMessage;
+
+    internal class ToDoitems
+    {
+        public string Title { get; set; }
+        public bool IsDone { get; set; } = false;
+    }
+
+    public class InvalidCharactersException : Exception
+    {
+        public InvalidCharactersException() : base("Todo item contains invalid characters. These are not allowed: @ # $ %")
+        {
+        }
+    }
+
+    private void CheckInvalidCharacters(ToDoitems item)
+    {
+        try
+        {
+            if (item.Title.IndexOfAny(new char[] { '@', '#', '$', '%' }) >= 0)
+            {
+                throw new InvalidCharactersException();
+            }
+        }
+        catch (InvalidCharactersException ex)
+        {
+            errorMessage = ex.Message;
+            ShowModal();
+        }
+        catch (Exception)
+        {
+            errorMessage = "An unexpected error occurred.";
+            ShowModal();
+        }
+    }
+
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newtodo))
+        {
+            var newItem = new ToDoitems { Title = newtodo };
+            CheckInvalidCharacters(newItem);
+            if (string.IsNullOrEmpty(errorMessage))
+            {
+                todos.Add(newItem);
+                newtodo = "";
+            }
+        }
+    }
+
+    private void Clear()
+    {
+        errorMessage = null;
+    }
+
+    private void DeleteTodo(ToDoitems item, List<ToDoitems> itemList)
+    {
+        itemList.Remove(item);
+    }
+
+    private async Task ShowModal()
+    {
+        await JSRuntime.InvokeVoidAsync("ShowModal");
+    }
+}
