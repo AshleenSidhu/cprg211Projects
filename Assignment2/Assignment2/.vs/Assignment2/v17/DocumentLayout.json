@@ -1,33 +1,31 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\",
+  "WorkspaceRootPath": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\nidaa\\onedrive\\desktop\\c#\\new\\assignments\\cprg-211-assignment-2\\assignment2\\assignment2\\components\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\ssidh\\cprg211projects\\cprg211projects\\assignment2\\assignment2\\components\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|solutionrelative:components\\pages\\calculator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\nidaa\\onedrive\\desktop\\c#\\new\\assignments\\cprg-211-assignment-2\\assignment2\\assignment2\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\ssidh\\cprg211projects\\cprg211projects\\assignment2\\assignment2\\components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|solutionrelative:components\\pages\\todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\nidaa\\onedrive\\desktop\\c#\\new\\assignments\\cprg-211-assignment-2\\assignment2\\assignment2\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\nidaa\\onedrive\\desktop\\c#\\new\\assignments\\cprg-211-assignment-2\\assignment2\\assignment2\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\ssidh\\cprg211projects\\cprg211projects\\assignment2\\assignment2\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\nidaa\\onedrive\\desktop\\c#\\new\\assignments\\cprg-211-assignment-2\\assignment2\\assignment2\\wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|solutionrelative:wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nidaa\\Downloads\\Todo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\nidaa\\onedrive\\desktop\\c#\\new\\assignments\\cprg-211-assignment-2\\assignment2\\assignment2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|c:\\users\\ssidh\\cprg211projects\\cprg211projects\\assignment2\\assignment2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{94AF5B7A-472B-4E50-83EA-E82641FF9303}|ExeptionHandling.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,56 +35,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T04:44:46.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Todo.razor",
-              "DocumentMoniker": "C:\\Users\\nidaa\\Downloads\\Todo.razor",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Todo.razor",
-              "ToolTip": "C:\\Users\\nidaa\\Downloads\\Todo.razor",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\Todo.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T04:09:29.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\app.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
-              "ToolTip": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\app.css",
-              "RelativeToolTip": "wwwroot\\css\\app.css",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAAGAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-15T00:23:51.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
               "ToolTip": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-              "RelativeToolTip": "wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-15T00:23:32.329Z"
@@ -95,22 +53,57 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Calculator.razor",
-              "DocumentMoniker": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Pages\\Calculator.razor",
+              "DocumentMoniker": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Pages\\Calculator.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Calculator.razor",
-              "ToolTip": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Pages\\Calculator.razor",
+              "ToolTip": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Pages\\Calculator.razor",
               "RelativeToolTip": "Components\\Pages\\Calculator.razor",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAANwAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-14T22:50:09.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\wwwroot\\css\\app.css",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-15T00:23:51.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Todo.razor",
+              "DocumentMoniker": "C:\\Users\\nidaa\\Downloads\\Todo.razor",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\nidaa\\Downloads\\Todo.razor",
+              "ToolTip": "C:\\Users\\nidaa\\Downloads\\Todo.razor",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\nidaa\\Downloads\\Todo.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T04:09:29.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T04:44:46.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -121,14 +114,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Todo.razor",
-              "DocumentMoniker": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Pages\\Todo.razor",
+              "DocumentMoniker": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Pages\\Todo.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Todo.razor",
-              "ToolTip": "C:\\Users\\nidaa\\OneDrive\\Desktop\\C#\\NEW\\Assignments\\CPRG-211-Assignment-2\\Assignment2\\Assignment2\\Components\\Pages\\Todo.razor",
+              "ToolTip": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\Components\\Pages\\Todo.razor",
               "RelativeToolTip": "Components\\Pages\\Todo.razor",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T20:44:10.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T20:44:10.953Z"
             }
           ]
         }

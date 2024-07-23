@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "Hash": "o9sYp/xFxS1mOGWF67PacSguxvStH0tw0QBhaid6xIU=",
+  "Source": "ExeptionHandling",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ExeptionHandling.styles.css",
+      "SourceId": "ExeptionHandling",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "ExeptionHandling.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\ExeptionHandling.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\ExeptionHandling.bundle.scp.css",
+      "SourceId": "ExeptionHandling",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "BasePath": "/",
+      "RelativePath": "ExeptionHandling.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ssidh\\cprg211Projects\\cprg211Projects\\Assignment2\\Assignment2\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\ExeptionHandling.bundle.scp.css"
+    }
+  ]
+}
