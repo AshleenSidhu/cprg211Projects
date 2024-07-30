@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-23T19:28:16.866</Modified>
+      <Modified>2024-07-23T19:45:19.320</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ExeptionHandling.dll">
       <PackagePath>ExeptionHandling.dll</PackagePath>
-      <Modified>2024-07-23T19:28:15.570</Modified>
+      <Modified>2024-07-23T19:45:18.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ExeptionHandling.exe</PackagePath>
-      <Modified>2024-07-23T19:28:15.584</Modified>
+      <Modified>2024-07-23T19:45:18.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -78,209 +78,209 @@
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-07-23T19:24:51.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.737</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.691</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.671</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.658</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.649</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.225</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.135</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.112</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.099</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-07-23T19:28:14.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-07-23T19:28:15.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.073</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.035</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.021</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-07-23T19:28:15.006</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.994</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.975</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.943</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.929</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.916</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.904</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.886</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.867</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.856</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.847</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.839</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.830</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.821</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.814</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.807</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.800</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.793</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.782</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.777</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.770</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-07-23T19:28:14.766</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.761</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.750</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.745</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.740</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-07-23T19:28:14.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.729</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.740</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.717</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.761</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.713</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.706</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.701</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.695</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.685</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.679</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-07-23T19:28:14.672</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-07-23T19:28:14.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-07-23T19:28:14.656</Modified>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2024-07-23T19:28:15.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2024-07-23T19:28:14.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ssidh\cprg211Projects\cprg211Projects\Assignment2\Assignment2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ExeptionHandling.deps.json">
       <PackagePath>ExeptionHandling.deps.json</PackagePath>
