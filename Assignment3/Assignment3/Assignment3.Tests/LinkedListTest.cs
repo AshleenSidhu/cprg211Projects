@@ -96,8 +96,6 @@ namespace Assignment3.Tests
 		{
 		}
 
-
-
 		/// <summary>
 		/// Test for the Getvalue method
 		/// </summary>
@@ -117,6 +115,9 @@ namespace Assignment3.Tests
 		{
 		}
 
+		/// <summary>
+		/// Test for the reverse method
+		/// </summary>
 		[Test]
 		public void ReverseLinkedListTest()
 		{
