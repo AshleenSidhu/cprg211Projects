@@ -12,6 +12,7 @@ namespace Assignment3
         /// Checks if the list is empty.
         /// </summary>
         /// <returns>True if it is empty.</returns>
+
         bool IsEmpty();
 
         /// <summary>
