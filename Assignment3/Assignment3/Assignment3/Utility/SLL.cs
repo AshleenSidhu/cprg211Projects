@@ -1,22 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using Assignment3.Utility;
 
 namespace Assignment3.Utility
 {
+	[Serializable]
 	public class SLL : ILinkedListADT
 	{
 		public int Size { get; private set; }
 		public Node<User> Head { get; private set; }
 		public Node<User> Tail { get; private set; }
+
 		public SLL()
 		{
 			Size = 0;
 			Head = null;
 			Tail = null;
+		}
+
+		public class CannotRemoveException : Exception
+		{
+			public CannotRemoveException(string message) : base(message)
+			{
+			}
 		}
 
 		/// <summary>
@@ -298,5 +308,33 @@ namespace Assignment3.Utility
 			}
 			return false;
 		}
+
+		/// <summary>
+		/// Reverse the order of the nodes in the list.
+		/// </summary>
+		public SLL Reverse()
+		{
+			if (Head == null || Head.Next == null)
+			{
+				return this;
+			}
+
+			Node<User> previous = null;
+			Node<User> current = Head;
+			Node<User> next = null;
+
+			while (current != null)
+			{
+				next = current.Next;
+				current.Next = previous;
+				previous = current;
+				current = next;
+			}
+
+			Head = previous;
+
+			return this;
+		}
+
 	}
 }
