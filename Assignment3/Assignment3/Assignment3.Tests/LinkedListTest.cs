@@ -34,11 +34,11 @@ namespace Assignment3.Tests
 		public void TestAddFirst()
 		{
 			// add a new user to the beginning.
-			users.AddFirst(new User(0, "Jiyeon Heo", "jiyeon.heo@gmail.com", "123456"));
+			users.AddFirst(new User(0, "Kevin Kim", "jiyeon.heo@gmail.com", "123456"));
 			// get the name of the first user in the list
-			string expectedName = users.GetValue(0).Name;
+			string expected = users.GetValue(0).Name;
 			// check that the name of the first user matches the expected name
-			Assert.AreEqual("Jiyeon Heo", expectedName);
+			Assert.AreEqual("Kevin Kim", expected);
 
 		}
 
@@ -59,11 +59,10 @@ namespace Assignment3.Tests
 		public void TestAdd()
 		{
 			// add a new user to the index 2
-			users.Add(new User(10, "Sarah Tenebro", "sarah@sait.com", "98765400"), 2);
-			// get the name of the index 2 in the list
-			string expectedName = users.GetValue(2).Name;
-			// check that the name of the index 2 matches the expected name
-			Assert.That(expectedName, Is.EqualTo("Sarah Tenebro"));
+			users.Add(new User(10, "Sandra Kelly", "sandra1@sait.com", "98700400"), 2);
+			string expected = users.GetValue(2).Name;
+			// check that the name of the user object at index 2 matches the expected name
+			Assert.That(expected, Is.EqualTo("Sandra Kelly"));
 		}
 
 		/// <summary>
@@ -75,9 +74,9 @@ namespace Assignment3.Tests
 			// remove the first user
 			users.RemoveFirst();
 			// get the name of the first(index 0) user object in the list
-			string expectedName = users.GetValue(0).Name;
+			string expected = users.GetValue(0).Name;
 			// check that the name of the first user object matches the expected name
-			Assert.That(expectedName, Is.EqualTo("Joe Schmoe"));
+			Assert.That(expected, Is.EqualTo("Joe Schmoe"));
 		}
 
 		/// <summary>
