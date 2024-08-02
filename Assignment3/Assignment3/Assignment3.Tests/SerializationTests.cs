@@ -8,7 +8,7 @@ namespace Assignment3.Tests
     public class SerializationTests
     {
         private ILinkedListADT users;
-        private readonly string testFileName = "test_users.bin";
+		private readonly string testFileName = "test_users.bin";
 
         [SetUp]
         public void Setup()

@@ -12,7 +12,9 @@ namespace Assignment3.Utility
 	public class SLL : ILinkedListADT
 	{
 		public int Size { get; private set; }
+
 		public Node<User> Head { get; private set; }
+
 		public Node<User> Tail { get; private set; }
 
 		public SLL()
@@ -241,7 +243,7 @@ namespace Assignment3.Utility
 		{
 			int countSizeReturn = Size;
 			//gets the value of the node at the specified index
-			if (index < 0 || index >= countSizeReturn -1) // Check if the position is out of bounds.
+			if (index < 0 || index >= countSizeReturn) // Check if the position is out of bounds.
 			{
 				throw new IndexOutOfRangeException("Index is negative or larger than size -1 of list"); // Throw an exception if the index is out of bounds.
 			}

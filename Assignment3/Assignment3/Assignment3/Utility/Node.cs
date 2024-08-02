@@ -12,19 +12,16 @@ namespace Assignment3.Utility
 	{
 		public User Value { get; set; }
 
-		// Public property 'Next' points to the next node in the list, initially null.
 		public Node<User> Next { get; set; }
 
-		// Constructor to initialize a new node with provided data; 'Next' is by default null.
 		public Node(User value)
 		{
-			this.Value = value; // Set the data part of the node.
+			this.Value = value;
 		}
 
 		public override string ToString()
 		{
 			return Value.ToString();
 		}
-
 	}
 }

@@ -49,6 +49,20 @@ namespace Assignment3.Tests
 		[Test]
 		public void TestAddLast()
 		{
+			// Arrange: Create the user to be added
+			var newUser = new User(5, "John Doe", "john.doe@example.com", "password123");
+
+			// Act: Add the new user to the end
+			users.AddLast(newUser);
+
+			// Assert: Check the size has increased by 1
+			Assert.AreEqual(5, users.Count());
+
+			// Act: Get the last user in the list
+			string expected = users.GetValue(users.Count() - 1).Name;
+
+			// Assert: Check that the name of the last user matches the expected name
+			Assert.AreEqual("John Doe", expected);
 		}
 
 		/// <summary>
@@ -85,6 +99,9 @@ namespace Assignment3.Tests
 		[Test]
 		public void TestRemoveLast()
 		{
+			users.RemoveLast();
+			int expected = users.Count();
+			Assert.AreEqual(3, expected);
 		}
 
 		/// <summary>
@@ -93,6 +110,9 @@ namespace Assignment3.Tests
 		[Test]
 		public void TestRemove()
 		{
+			users.Remove(1);
+			string expected = users.GetValue(1).Name;
+			Assert.That(expected, Is.EqualTo("Colonel Sanders"));
 		}
 
 		/// <summary>
@@ -101,6 +121,8 @@ namespace Assignment3.Tests
 		[Test]
 		public void TestGetValue()
 		{
+			User user = users.GetValue(1);
+			Assert.AreEqual("Joe Schmoe", user.Name);
 		}
 
 		[Test]
@@ -112,6 +134,9 @@ namespace Assignment3.Tests
 		[Test]
 		public void ReplaceTest()
 		{
+			users.Replace(new User(5, "John Doe", "john.doe@gmail.com", "password123"), 1);
+			string expected = users.GetValue(1).Name;
+			Assert.AreEqual("John Doe", expected);
 		}
 
 		/// <summary>
